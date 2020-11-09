@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+}
+.cards{
+	display: flex;
+}
+
+.jumbotron{
+	transition:all 1s;
+}
+
+.jumbotron:hover {
+	transform:scale(1.1);
+	z-index:999999;
+}
+
+.card {
+	transition: all 1s;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	z-index: 2;
+}
